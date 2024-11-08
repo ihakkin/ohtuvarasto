@@ -1,6 +1,7 @@
 from varasto import Varasto
 
 
+# pylint: disable=too-many-statements
 def main():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
